@@ -30,11 +30,11 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
-                        <li><a href="{% url 'profile' %}">Profile</a></li>
-                        <li><a href="{% url 'logout' %}">Log Out</a></li>
+                        <li><a href="{% url 'profile' %}"><i class="fa fa-user"></i>Profile</a></li>
+                        <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out"></i>Log Out</a></li>
                     {%  else %}
-                        <li><a href="{% url 'register' %}">Register</a></li>
-                        <li><a href="{% url 'login' %}">Log In</a></li>
+                        <li><a href="{% url 'register' %}"><i class="fa fa-user-plus"></i>Register</a></li>
+                        <li><a href="{% url 'login' %}"><i class="fa fa-sign-in"></i>Log In</a></li>
                     {% endif %}
                     <li>
                         <a href="{% url 'view_cart' %}">
@@ -60,7 +60,7 @@
     <div class="container">
         <div class="display">
             <form action="{% url 'search' %}" method="get">
-                <input type="text" placeholder="Type In Product Title..." name="q">
+                <input type="text" placeholder="Type In Title or Keyword..." name="q">
                 <button type="search">Search</button>
             </form>
         </div>
@@ -68,7 +68,7 @@
     </div>
     <footer>
         <div class="container">
-            <p>Credits to Code Institute</p>
+            <p>Credits to Code Institute for Web Layout</p>
         </div>
     </footer>
 </body>
