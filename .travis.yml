@@ -3,4 +3,4 @@ python:
 - "2.7.6"
 install: "pip install -r requirements.txt"
 script:
-- SECRET_KEY = "AKIAUL76HAIPUKS2LLNB" ./manage.py test
+- SECRET_KEY = "sk_test_NEu2s7QDRQkV2BRWz7ie2q6W00kTw56piw" ./manage.py test
