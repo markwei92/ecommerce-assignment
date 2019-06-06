@@ -17,20 +17,25 @@ Users will then fill in all the necessary card payment details and address detai
 
 
 #Frameworks Used
+
 This project is a full stack project consisting of html, css, bootstrap, javascript, python and django framework with postgresl.
 Much of the website layout and structure is based off the tutorial provided by Code Institute such as the libraries and Django framework.
 
 
 #Testing
+
 For testing, I did manual testing, testing the registration by signing up for an account and checking the admin to see if the account exists, thereafter trying the login and logout functions. I also tested to ensure user account created do not have
 administrative rights to the site. Next I tested the search box function by typing in various search terms, and the search returned back accurately the results based on the keyword I typed in. Thereafter I clicked on the Brand name at the top left of the site to test whether it will return back to the home page and it worked as expected. 
 Next I tested the add to cart functions in the homepage as well as the add to cart page to ensure that the cart can be updated accordingly. Lastly I tested the checkout function and keyed in the fictious details, I expected
 payment to be unsuccessful as the card details are not valid and displays the error message as expected.
 
 #Deployment
-Deployed to Github, AWS and Heroku.
+
+Deployed to Github, AWS and Heroku. Github was straightforward, however AWS and heroku were more steps intensive and required a couple of tries to get the website to work seamlessly.
+
 
 #Credits
+
 Credits to Code Institute for web layout and design.
 
 #Media & Content
