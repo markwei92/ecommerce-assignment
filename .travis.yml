@@ -4,7 +4,7 @@ python:
 install: "pip install -r requirements.txt"
 
 deploy:
-  provider: script
-  script: bash scripts/deploy.sh
-  on:
-    branch: develop
+  provider: s3
+  access_key_id: "AKIAUL76HAIPUKS2LLNB"
+  secret_access_key: "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"
+  bucket: "S3 Bucket"
