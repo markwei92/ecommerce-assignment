@@ -38,7 +38,7 @@ PW: pass1234
 
 #Credits
 
-Credits to Code Institute for web layout and design.
+Credits to Code Institute for code, web layout and design.
 
 #Media & Content
 The photos used in this site were obtained from:
