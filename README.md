@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/markwei92/ecommerce-assignment.svg?branch=master)](https://travis-ci.org/markwei92/ecommerce-assignment)
 #Fashion Apparel Ecommerce Project
 
-This project is an ecommerce clothing store whereby users can browse the store and make online purchases on their desired products.
+This project is an ecommerce clothing s"tore whereby users can browse the store and make online purchases on their desired products.
 
 
 #UX
