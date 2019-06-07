@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/markwei92/ecommerce-assignment.svg?branch=master)](https://travis-ci.org/markwei92/ecommerce-assignment)
 #Fashion Apparel Ecommerce Project
 
 This project is an ecommerce clothing s"tore whereby users can browse the store and make online purchases on their desired products.
@@ -33,7 +32,9 @@ payment to be unsuccessful as the card details are not valid and displays the er
 #Deployment
 
 Deployed to Github, AWS and Heroku. Github was straightforward, however AWS and heroku were more steps intensive and required a couple of tries to get the website to work seamlessly.
-
+For admin access use this account:
+User: heroku
+PW: pass1234
 
 #Credits
 
